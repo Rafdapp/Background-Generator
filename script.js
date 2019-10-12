@@ -9,5 +9,6 @@ color1.addEventListener("input", function() {
 });
 
 color2.addEventListener("input", function() {
-  console.log(color2.value);
+  body.style.background =
+    "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
 });
