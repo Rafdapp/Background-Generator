@@ -5,7 +5,7 @@ var body = document.getElementById("gradient");
 
 color1.addEventListener("input", function() {
   body.style.background =
-    "liner-gradient(to right, " + color1.value + ", " + color2.value + ")";
+    "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
 });
 
 color2.addEventListener("input", function() {
